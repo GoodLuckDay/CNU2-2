@@ -1,0 +1,220 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BG	tsh.c	28;"	d	file:
+BG	tsh_back.c	20;"	d	file:
+BG	tsh_back_myself.c	20;"	d	file:
+BOMB_HOST	runtrace.c	26;"	d	file:
+BOMB_USER	runtrace.c	25;"	d	file:
+CC	Makefile	/^CC = \/usr\/bin\/gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -g$/;"	m
+CHILD	tsh.c	30;"	d	file:
+CONVERT	fork.c	14;"	d	file:
+DRIVER_TIMEOUT	config.h	14;"	d
+FG	tsh.c	27;"	d	file:
+FG	tsh_back.c	19;"	d	file:
+FG	tsh_back_myself.c	19;"	d	file:
+FILES	Makefile	/^FILES = sdriver runtrace tsh myspin1 myspin2 myenv myintp myints mytstpp mytstps mysplit mysplitp mycat$/;"	m
+ITERS	config.h	48;"	d
+JOB_TIMEOUT	config.h	17;"	d
+MAXARGS	config.h	50;"	d
+MAXARGS	tsh.c	21;"	d	file:
+MAXARGS	tsh_back.c	24;"	d	file:
+MAXARGS	tsh_back_myself.c	24;"	d	file:
+MAXBUF	config.h	49;"	d
+MAXBUF	runtrace.c	24;"	d	file:
+MAXJID	tsh.c	23;"	d	file:
+MAXJID	tsh_back.c	26;"	d	file:
+MAXJID	tsh_back_myself.c	26;"	d	file:
+MAXJOBS	tsh.c	22;"	d	file:
+MAXJOBS	tsh_back.c	25;"	d	file:
+MAXJOBS	tsh_back_myself.c	25;"	d	file:
+MAXLINE	tsh.c	20;"	d	file:
+MAXLINE	tsh_back.c	23;"	d	file:
+MAXLINE	tsh_back_myself.c	23;"	d	file:
+MAXTRACES	config.h	51;"	d
+MAX_LINE	runtrace.c	29;"	d	file:
+MAX_SLEEP	fork.c	12;"	d	file:
+PARENT	tsh.c	31;"	d	file:
+PERLPROG	sdriver.c	39;"	d	file:
+PROMPT	config.h	52;"	d
+SENDMAIL	runtrace.c	27;"	d	file:
+ST	tsh.c	29;"	d	file:
+ST	tsh_back.c	21;"	d	file:
+ST	tsh_back_myself.c	21;"	d	file:
+Signal	tsh.c	/^handler_t *Signal(int signum, handler_t *handler) $/;"	f
+Signal	tsh_back.c	/^handler_t *Signal(int signum, handler_t *handler) $/;"	f
+Signal	tsh_back_myself.c	/^handler_t *Signal(int signum, handler_t *handler) $/;"	f
+TRACEFILES	config.h	20;"	d
+UNDEF	tsh.c	26;"	d	file:
+UNDEF	tsh_back.c	18;"	d	file:
+UNDEF	tsh_back_myself.c	18;"	d	file:
+USERID	account.h	1;"	d
+__wrap_fork	fork.c	/^pid_t __wrap_fork(void)$/;"	f
+addjob	tsh.c	/^int addjob(struct job_t *jobs, pid_t pid, int state, char *cmdline) $/;"	f
+addjob	tsh_back.c	/^int addjob(struct job_t *jobs, pid_t pid, int state, char *cmdline) $/;"	f
+addjob	tsh_back_myself.c	/^int addjob(struct job_t *jobs, pid_t pid, int state, char *cmdline) $/;"	f
+app_error	tsh.c	/^void app_error(char *msg)$/;"	f
+app_error	tsh_back.c	/^void app_error(char *msg)$/;"	f
+app_error	tsh_back_myself.c	/^void app_error(char *msg)$/;"	f
+autograded	sdriver.c	/^int autograded = 0;         \/* Set only on the Autolab server (-A) *\/$/;"	v
+autoresult	sdriver.c	/^char autoresult[MAXBUF]; \/* Autolab autoresult string *\/  $/;"	v
+blankline	runtrace.c	/^int blankline(char *str)$/;"	f
+buf	myspin1.c	/^char buf[MAXBUF];$/;"	v
+buf	myspin2.c	/^char buf[MAXBUF];$/;"	v
+buf	mysplit.c	/^char buf[MAXBUF];$/;"	v
+buf	mysplitp.c	/^char buf[MAXBUF];$/;"	v
+buf	runtrace.c	/^char buf[MAXBUF];$/;"	v
+builtin_cmd	tsh.c	/^int builtin_cmd(char **argv)$/;"	f
+builtin_cmd	tsh_back_myself.c	/^int builtin_cmd(char **argv) $/;"	f
+clean	runtrace.c	/^void clean() {$/;"	f
+clearjob	tsh.c	/^void clearjob(struct job_t *job) {$/;"	f
+clearjob	tsh_back.c	/^void clearjob(struct job_t *job) {$/;"	f
+clearjob	tsh_back_myself.c	/^void clearjob(struct job_t *job) {$/;"	f
+cmdline	tsh.c	/^	char cmdline[MAXLINE];  \/* command line *\/$/;"	m	struct:job_t	file:
+cmdline	tsh_back.c	/^    char cmdline[MAXLINE];  \/* command line *\/$/;"	m	struct:job_t	file:
+cmdline	tsh_back_myself.c	/^    char cmdline[MAXLINE];  \/* command line *\/$/;"	m	struct:job_t	file:
+command	runtrace.c	/^char command[MAXBUF];$/;"	v
+datafd	runtrace.c	/^int datafd[2];$/;"	v
+default_tracefiles	sdriver.c	/^static char *default_tracefiles[] = {TRACEFILES, NULL};$/;"	v	file:
+delete_tmpfiles	sdriver.c	/^void delete_tmpfiles()$/;"	f
+deletejob	tsh.c	/^int deletejob(struct job_t *jobs, pid_t pid) $/;"	f
+deletejob	tsh_back.c	/^int deletejob(struct job_t *jobs, pid_t pid) $/;"	f
+deletejob	tsh_back_myself.c	/^int deletejob(struct job_t *jobs, pid_t pid) $/;"	f
+diff_filtered_outfile	sdriver.c	/^char diff_filtered_outfile[MAXBUF];$/;"	v
+diff_raw_outfile	sdriver.c	/^char diff_raw_outfile[MAXBUF];$/;"	v
+do_bgfg	tsh_back_myself.c	/^void do_bgfg(char **argv) $/;"	f
+emit_file	sdriver.c	/^void emit_file(char *filename) $/;"	f
+eval	tsh.c	/^void eval(char *cmdline) $/;"	f
+eval	tsh_back.c	/^void eval(char *cmdline) $/;"	f
+eval	tsh_back_myself.c	/^void eval(char *cmdline) $/;"	f
+f	python.py	/^	f = open('.\/account.h', 'w+')$/;"	v
+fgpid	tsh.c	/^pid_t fgpid(struct job_t *jobs) {$/;"	f
+fgpid	tsh_back.c	/^pid_t fgpid(struct job_t *jobs) {$/;"	f
+fgpid	tsh_back_myself.c	/^pid_t fgpid(struct job_t *jobs) {$/;"	f
+getjobjid	tsh.c	/^struct job_t *getjobjid(struct job_t *jobs, int jid) $/;"	f
+getjobjid	tsh_back.c	/^struct job_t *getjobjid(struct job_t *jobs, int jid) $/;"	f
+getjobjid	tsh_back_myself.c	/^struct job_t *getjobjid(struct job_t *jobs, int jid) $/;"	f
+getjobpid	tsh.c	/^struct job_t *getjobpid(struct job_t *jobs, pid_t pid) {$/;"	f
+getjobpid	tsh_back.c	/^struct job_t *getjobpid(struct job_t *jobs, pid_t pid) {$/;"	f
+getjobpid	tsh_back_myself.c	/^struct job_t *getjobpid(struct job_t *jobs, pid_t pid) {$/;"	f
+handler_t	tsh.c	/^typedef void handler_t(int);$/;"	t	file:
+handler_t	tsh_back.c	/^typedef void handler_t(int);$/;"	t	file:
+handler_t	tsh_back_myself.c	/^typedef void handler_t(int);$/;"	t	file:
+initjobs	tsh.c	/^void initjobs(struct job_t *jobs) {$/;"	f
+initjobs	tsh_back.c	/^void initjobs(struct job_t *jobs) {$/;"	f
+initjobs	tsh_back_myself.c	/^void initjobs(struct job_t *jobs) {$/;"	f
+jid	tsh.c	/^	int jid;                \/* job ID [1, 2, ...] *\/$/;"	m	struct:job_t	file:
+jid	tsh_back.c	/^    int jid;                \/* job ID [1, 2, ...] *\/$/;"	m	struct:job_t	file:
+jid	tsh_back_myself.c	/^    int jid;                \/* job ID [1, 2, ...] *\/$/;"	m	struct:job_t	file:
+job_t	tsh.c	/^struct job_t {              \/* The job struct *\/$/;"	s	file:
+job_t	tsh_back.c	/^struct job_t {              \/* The job struct *\/$/;"	s	file:
+job_t	tsh_back_myself.c	/^struct job_t {              \/* The job struct *\/$/;"	s	file:
+jobs	tsh.c	/^struct job_t jobs[MAXJOBS]; \/* The job list *\/$/;"	v	typeref:struct:job_t
+jobs	tsh_back.c	/^struct job_t jobs[MAXJOBS]; \/* The job list *\/$/;"	v	typeref:struct:job_t
+jobs	tsh_back_myself.c	/^struct job_t jobs[MAXJOBS]; \/* The job list *\/$/;"	v	typeref:struct:job_t
+line	runtrace.c	/^char line[MAXBUF];$/;"	v
+listjobs	tsh.c	/^void listjobs(struct job_t *jobs, int output_fd) $/;"	f
+listjobs	tsh_back.c	/^void listjobs(struct job_t *jobs, int output_fd) $/;"	f
+listjobs	tsh_back_myself.c	/^void listjobs(struct job_t *jobs) $/;"	f
+main	mycat.c	/^int main() {$/;"	f
+main	myenv.c	/^int main() $/;"	f
+main	myintp.c	/^int main() $/;"	f
+main	myints.c	/^int main() $/;"	f
+main	myspin1.c	/^int main(int argc, char **argv) $/;"	f
+main	myspin2.c	/^int main(int argc, char **argv) $/;"	f
+main	mysplit.c	/^int main(int argc, char **argv) $/;"	f
+main	mysplitp.c	/^int main(int argc, char **argv) $/;"	f
+main	mytstpp.c	/^int main() $/;"	f
+main	mytstps.c	/^int main() $/;"	f
+main	runtrace.c	/^int main(int argc, char **argv) $/;"	f
+main	sdriver.c	/^int main(int argc, char **argv)$/;"	f
+main	tsh.c	/^int main(int argc, char **argv) $/;"	f
+main	tsh_back.c	/^int main(int argc, char **argv) $/;"	f
+main	tsh_back_myself.c	/^int main(int argc, char **argv) $/;"	f
+maxjid	tsh.c	/^int maxjid(struct job_t *jobs) $/;"	f
+maxjid	tsh_back.c	/^int maxjid(struct job_t *jobs) $/;"	f
+maxjid	tsh_back_myself.c	/^int maxjid(struct job_t *jobs) $/;"	f
+message	python.py	/^	message = '#define USERID "%s"'%(who)$/;"	v
+next_prompt	runtrace.c	/^int next_prompt(void)$/;"	f
+nextjid	tsh.c	/^int nextjid = 1;            \/* next job ID to allocate *\/$/;"	v
+nextjid	tsh_back.c	/^int nextjid = 1;            \/* next job ID to allocate *\/$/;"	v
+nextjid	tsh_back_myself.c	/^int nextjid = 1;            \/* next job ID to allocate *\/$/;"	v
+num_iters	sdriver.c	/^int num_iters=ITERS;        \/* How many times to test each trace file *\/$/;"	v
+os	python.py	/^import os$/;"	i
+parseline	tsh.c	/^int parseline(const char *cmdline, char **argv) $/;"	f
+parseline	tsh_back.c	/^int parseline(const char *cmdline, char **argv) $/;"	f
+parseline	tsh_back_myself.c	/^int parseline(const char *cmdline, char **argv) $/;"	f
+pid	tsh.c	/^	pid_t pid;              \/* job PID *\/$/;"	m	struct:job_t	file:
+pid	tsh_back.c	/^    pid_t pid;              \/* job PID *\/$/;"	m	struct:job_t	file:
+pid	tsh_back_myself.c	/^    pid_t pid;              \/* job PID *\/$/;"	m	struct:job_t	file:
+pid2jid	tsh.c	/^int pid2jid(pid_t pid) $/;"	f
+pid2jid	tsh_back.c	/^int pid2jid(pid_t pid) $/;"	f
+pid2jid	tsh_back_myself.c	/^int pid2jid(pid_t pid) $/;"	f
+print_child_status	runtrace.c	/^void print_child_status()$/;"	f
+prompt	tsh.c	/^char prompt[] = "elsab_tsh> ";    \/* command line prompt (DO NOT CHANGE) *\/$/;"	v
+prompt	tsh_back.c	/^char prompt[] = "eslab_tsh> ";    \/* command line prompt (DO NOT CHANGE) *\/$/;"	v
+prompt	tsh_back_myself.c	/^char prompt[] = "eslab_tsh> ";    \/* command line prompt (DO NOT CHANGE) *\/$/;"	v
+readable	runtrace.c	/^int readable(int fd, int secs) $/;"	f
+ref_filtered_outfile	sdriver.c	/^char ref_filtered_outfile[MAXBUF];$/;"	v
+ref_raw_outfile	sdriver.c	/^char ref_raw_outfile[MAXBUF];$/;"	v
+run	python.py	/^run = lambda cmd: check_output(cmd, shell=True, executable='\/bin\/bash')$/;"	v
+runtrace	sdriver.c	/^int runtrace(char *tracefile)$/;"	f
+sandboxing	runtrace.c	/^int sandboxing = 0;$/;"	v
+sandboxing	sdriver.c	/^int sandboxing = 0;         \/* Enable sandboxing (-x) *\/$/;"	v
+sbuf	tsh.c	/^char sbuf[MAXLINE];         \/* for composing sprintf messages *\/$/;"	v
+sbuf	tsh_back.c	/^char sbuf[MAXLINE];         \/* for composing sprintf messages *\/$/;"	v
+sbuf	tsh_back_myself.c	/^char sbuf[MAXLINE];         \/* for composing sprintf messages *\/$/;"	v
+scratch	runtrace.c	/^char scratch[MAX_LINE];$/;"	v
+send_msg	runtrace.c	/^void send_msg(int defused)$/;"	f
+shellargs	runtrace.c	/^char *shellargs = NULL;$/;"	v
+shellprog	runtrace.c	/^char *shellprog = ".\/tsh";$/;"	v
+shellprog	sdriver.c	/^char *shellprog = ".\/eslab_tsh";  \/* Name of test shell (-s) *\/$/;"	v
+sigalrm_handler	myintp.c	/^void sigalrm_handler() $/;"	f
+sigalrm_handler	myints.c	/^void sigalrm_handler() $/;"	f
+sigalrm_handler	myspin1.c	/^void sigalrm_handler(int signum) $/;"	f
+sigalrm_handler	myspin2.c	/^void sigalrm_handler(int signum) $/;"	f
+sigalrm_handler	mysplit.c	/^void sigalrm_handler(int signum) $/;"	f
+sigalrm_handler	mytstpp.c	/^void sigalrm_handler() $/;"	f
+sigalrm_handler	runtrace.c	/^void sigalrm_handler(int sig) $/;"	f
+sigchld_handler	tsh.c	/^void sigchld_handler(int sig) $/;"	f
+sigchld_handler	tsh_back.c	/^void sigchld_handler(int sig) $/;"	f
+sigchld_handler	tsh_back_myself.c	/^void sigchld_handler(int sig) $/;"	f
+sigint_handler	tsh.c	/^void sigint_handler(int sig) $/;"	f
+sigint_handler	tsh_back.c	/^void sigint_handler(int sig) $/;"	f
+sigint_handler	tsh_back_myself.c	/^void sigint_handler(int sig) $/;"	f
+sigquit_handler	tsh.c	/^void sigquit_handler(int sig) $/;"	f
+sigquit_handler	tsh_back.c	/^void sigquit_handler(int sig) $/;"	f
+sigquit_handler	tsh_back_myself.c	/^void sigquit_handler(int sig) $/;"	f
+sigtstp_handler	tsh.c	/^void sigtstp_handler(int sig) $/;"	f
+sigtstp_handler	tsh_back.c	/^void sigtstp_handler(int sig) $/;"	f
+sigtstp_handler	tsh_back_myself.c	/^void sigtstp_handler(int sig) $/;"	f
+state	runtrace.c	/^char *state;$/;"	v
+state	tsh.c	/^	int state;              \/* UNDEF, BG, FG, or ST *\/$/;"	m	struct:job_t	file:
+state	tsh_back.c	/^    int state;              \/* UNDEF, BG, FG, or ST *\/$/;"	m	struct:job_t	file:
+state	tsh_back_myself.c	/^    int state;              \/* UNDEF, BG, FG, or ST *\/$/;"	m	struct:job_t	file:
+status	sdriver.c	/^char status[MAXBUF];$/;"	v
+syncfd	runtrace.c	/^int syncfd[2];$/;"	v
+test_filtered_outfile	sdriver.c	/^char test_filtered_outfile[MAXBUF];$/;"	v
+test_raw_outfile	sdriver.c	/^char test_raw_outfile[MAXBUF];$/;"	v
+time	fork.c	/^struct timeval time;$/;"	v	typeref:struct:timeval
+tracefile	runtrace.c	/^char *tracefile = NULL;$/;"	v
+unix_error	tsh.c	/^void unix_error(char *msg)$/;"	f
+unix_error	tsh_back.c	/^void unix_error(char *msg)$/;"	f
+unix_error	tsh_back_myself.c	/^void unix_error(char *msg)$/;"	f
+usage	runtrace.c	/^void usage(char *msg)$/;"	f
+usage	sdriver.c	/^void usage(void) $/;"	f
+usage	tsh.c	/^void usage(void) $/;"	f
+usage	tsh_back.c	/^void usage(void) $/;"	f
+usage	tsh_back_myself.c	/^void usage(void) $/;"	f
+verbose	runtrace.c	/^int verbose = 0;$/;"	v
+verbose	sdriver.c	/^int verbose = 0;            \/* Global flag for verbose output (-V) *\/$/;"	v
+verbose	tsh.c	/^int verbose = 0;            \/* if true, print additional output *\/$/;"	v
+verbose	tsh_back.c	/^int verbose = 0;            \/* if true, print additional output *\/$/;"	v
+verbose	tsh_back_myself.c	/^int verbose = 0;            \/* if true, print additional output *\/$/;"	v
+waitfg	tsh.c	/^void waitfg(pid_t pid, int output_fd)$/;"	f
+waitfg	tsh_back_myself.c	/^void waitfg(pid_t pid)$/;"	f
+who	python.py	/^	who = run('whoami')$/;"	v
